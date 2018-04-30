@@ -54,7 +54,7 @@ if ($DBcon->query($query) === TRUE) {
 
 	$last_id = $DBcon->insert_id;
 
-		echo "<font color='red'>New Customer added successfully. your ID is: " . $last_id . "</font>";
+		echo "<font color='green'>New Customer added successfully. your ID is: " . $last_id . "</font>";
 		}
 
   }
