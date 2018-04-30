@@ -1,0 +1,24 @@
+table, th, td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+  margin: 35px;
+
+}
+table tr:nth-child(odd) {
+  background-color: #f1f1f1;
+  
+}
+table tr:nth-child(even) {
+  background-color: #ffffff;
+
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+
+}
+.grid-item {
+  font-size: 15px;
+  text-align: center;
+}

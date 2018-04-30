@@ -1,0 +1,14 @@
+plz login login page
+
+for Admin:
+user Id:90
+password: admin	
+
+for Customer Relation Officer
+user Id : 92
+password :amith
+
+for Cash officer
+user Id : 84
+password :amith
+

@@ -1,0 +1,145 @@
+body 
+
+{font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../img/4.jpg");
+
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=email],input[type=date] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid #004b66;
+    background-color: transparent;
+    font-size: 16px;
+    opacity: 0.9;
+    font-color: red;
+}
+
+input[type=button],input[type=submit] {
+    background-color: #004b66;
+    color: white;
+    padding: 14px 12px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 12px; 
+}
+
+
+
+input[type=button]:hover {
+    opacity: 0.8;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #004b66;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 12px;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+header{
+  position: absolute;
+  bottom: 81%;
+  width: 20%; 
+  height: 80px;
+  background-color: transparent;
+  border-radius: 12px;
+ 
+   
+
+}
+
+footer {
+  position: absolute;
+  bottom: 12%;
+  width: 69%; 
+  height: 80px;
+  background: #ccddff;
+  border-radius: 12px; 
+} 
+
+input, select, textarea{
+    color: #fff;
+}
+
+textarea:focus, input:focus {
+    color: #fff;
+}
+
+
+
+
+
+.container {
+    padding: 20px;
+    
+}
+
+
+
+/* The Modal (background) */
+.modal {
+   
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 1400px; /* Full width */
+    height: 610px; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(f,f,f); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+
+}
+
+/* Modal Content/Box */
+
+
+
+.modal-content {
+    
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #000;*/
+    width: 30%; /* Could be more or less, depending on screen size */
+    
+    overflow-y: auto;
+    border-radius: 12px; 
+    z-index: 0;
+    
+}
+
+.modal1-content {
+    
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px ;
+    width: 20%; /* Could be more or less, depending on screen size */
+    height: 68%;
+    border-radius: 12px;
+    z-index: 4;
+   }
+
+.modal-footer {
+  
+  border-radius: 12px; 
+} 
+
+
+
+
+
