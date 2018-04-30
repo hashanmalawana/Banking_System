@@ -94,23 +94,23 @@ $DBcon->close();
 
 <b>Name: {{name}} {{name1}} {{name2}}</b>
 <input type="text" ng-model="name" placeholder="First Name" name="name" required  />
-<input type="text" ng-model="name1"  placeholder="Middel Name" name="name1"  />
+<input type="text" ng-model="name1"  placeholder="Second Name" name="name1"  />
 <input type="text" ng-model="name2" placeholder="Last Name" name="name2" />
 
 <b>Address: {{address}}  {{address1}}  {{address2}}  {{address3}}   </b>
-<input type="text" ng-model="address" placeholder="Address 1" name="address" required  />
-<input type="text" ng-model="address1" placeholder="Address 2" name="address1"   />
-<input type="text" ng-model="address2" placeholder="Address 3" name="address2"   />
-<input type="text" ng-model="address3" placeholder="Address 4" name="address3"   /><br>
+<input type="text" ng-model="address" placeholder="Address" name="address" required  />
+<input type="text" ng-model="address1" placeholder="Line 1" name="address1"   />
+<input type="text" ng-model="address2" placeholder="Line 2" name="address2"   />
+<input type="text" ng-model="address3" placeholder="Line 3" name="address3"   /><br>
 
 <b>NIC Number: {{nic}}  </b>
 <input type="text" ng-model="nic" placeholder="NIC" name="nic"  />
 
 <b>Birthday: </b>
-<input type="date"  placeholder="Birthday" name="birthday" required  />
+<input type="date"  placeholder="Date" name="birthday" required  />
 
 <b>E-Mail: </b>
-<input type="email"  placeholder="xxx@xxx.xxx" name="email"   />
+<input type="email"  placeholder="xxx@.xxx" name="email"   />
 
 <b>Phone Number: {{phone}}</b>
 <input type="text" ng-model="phone" placeholder="0094xxxxxxx" name="phone"   />

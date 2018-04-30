@@ -82,7 +82,7 @@ $DBcon->close();
 
 <div ng-app="">
 <div class="container">
-<font color="#224b33">
+<font color="#224c47">
 <b>User Name : {{name}} {{name1}} </b>
 <input type="text" ng-model="name" placeholder="First Name" name="name" required  />
 <input type="text" ng-model="name1" placeholder="Last Name" name="name1" required  />
