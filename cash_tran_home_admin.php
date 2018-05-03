@@ -44,6 +44,8 @@ $DBcon->close();
 <input type="button" value="All Transection" name="back"ONCLICK="window.location.href='cash_tran_totaltra_admin.php' ""/>
 </div>
 
+//function loading
+
 <div class="container"> 
 
 <b>Account Number :<?php echo $id; ?></br>
