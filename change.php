@@ -62,6 +62,9 @@ echo "<script>alert('Your old password is wrong'); window.location='logout.php'<
 <div class="opacity"> 
 <form class="modal-content " method="post" >
 <header>
+	
+	/*password requirments*/
+
 <h3>Admin</h3>
 <h2><center>Change Password</center></h2>
 <div class="container">
