@@ -34,7 +34,7 @@ input[type=file]{
 }
 
 input[type=button],input[type=submit] {
-    background-color: #004b66;
+    background-color: #114b66;
     color: white;
     padding: 14px 12px;
     margin: 8px 0;
@@ -43,7 +43,7 @@ input[type=button],input[type=submit] {
     width: 13%;
     border-radius: 12px; 
 }
-
+/* Set a style for all buttons 1 */
 input[type=button]:hover {
     opacity: 0.8;
 }
