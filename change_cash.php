@@ -63,7 +63,7 @@ echo "<script>alert('Your old password is wrong'); window.location='logout.php'<
 <form class="modal-content " method="post" >
 
 <header>
-<h3>Cash Service Officer</h3>
+<h3>Cash Services</h3>
 <h2><center>Change Password</center></h2>
 </header>
 <div class="container">	

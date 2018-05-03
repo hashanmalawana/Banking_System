@@ -66,7 +66,7 @@ echo "<script>alert(' Cash withdraw successful'); window.location='cash_customer
 }else
 {
                 
-echo '<br>Not have Amount Balance';
+echo '<br>No Amount Balance';
                 
 }
             
