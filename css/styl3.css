@@ -74,7 +74,7 @@ footer {
   top: 76%;
   width: 69%; 
   opacity: 0.6;
-  background: #ccddff;
+  background: #ccccff;
   
 
 } 
@@ -84,7 +84,7 @@ footer {
 .cancelbtn {
     width: auto;
     padding: 10px 18px;
-    background-color: #f44336;
+    background-color: #f44346;
 
 }
 
@@ -135,7 +135,7 @@ span.psw {
 }
 
 .opacity{
-    background-color: #ccddff;
+    background-color: #ccffff;
     opacity: 0.4;
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 1px ;
