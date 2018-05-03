@@ -11,7 +11,7 @@ input[type=text], input[type=password],input[type=email],input[type=date] {
     padding: 12px 20px;
     margin: 8px 0;
     border: none;
-    border-bottom: 2px solid #004b66;
+    border-bottom: 2px solid #104b66;
     background-color: transparent;
     font-size: 16px;
     opacity: 0.9;
@@ -19,7 +19,7 @@ input[type=text], input[type=password],input[type=email],input[type=date] {
 }
 
 input[type=button],input[type=submit] {
-    background-color: #004b66;
+    background-color: #104b66;
     color: white;
     padding: 14px 12px;
     margin: 8px 0;
@@ -78,7 +78,7 @@ input, select, textarea{
 }
 
 textarea:focus, input:focus {
-    color: #fff;
+    color: #ffd;
 }
 
 
