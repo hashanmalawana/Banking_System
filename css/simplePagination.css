@@ -32,12 +32,12 @@ ul.simple-pagination {
 
 .light-theme a, .light-theme span {
 	float: left;
-	color: #666;
+	color: #888;
 	font-size:14px;
 	line-height:24px;
 	font-weight: normal;
 	text-align: center;
-	border: 1px solid #BBB;
+	border: 1px solid #ddd;
 	min-width: 14px;
 	padding: 0 7px;
 	margin: 0 5px 0 0;
@@ -60,7 +60,7 @@ ul.simple-pagination {
 
 .light-theme .current {
 	background: #666;
-	color: #FFF;
+	color: #ddd;
 	border-color: #444;
 	box-shadow: 0 1px 0 rgba(255,255,255,1), 0 0 2px rgba(0, 0, 0, 0.3) inset;
 	cursor: default;
