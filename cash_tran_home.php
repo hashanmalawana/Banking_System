@@ -10,6 +10,8 @@ exit;
 
 $user_id = $_SESSION["userSession2"] ;
 
+
+//assign data to the base
 $query = $DBcon->query("SELECT * FROM user where user_id= '$user_id'");
 $userRow=$query->fetch_array();
         
@@ -27,7 +29,7 @@ $customerRow=$joinquery->fetch_assoc();
 $z=$DBcon->query("SELECT ((SELECT COALESCE(SUM(amt),0) FROM `transaction` WHERE tratype = 'deposit' AND acc_no ='$id') - (SELECT COALESCE( SUM( amt ),0) FROM `transaction` WHERE tratype = 'withdraw' AND acc_no ='$id' )) AS tbalance ");
 $row = $z->fetch_array();
 
-          
+   //gain data       
                
 $tbalance=$row["tbalance"]; 
 $formattedNum3 = number_format($tbalance, 2);
