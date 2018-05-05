@@ -25,6 +25,8 @@ if (isset($_POST['btn-view'])) {
  
  $count = $query->num_rows; 
  
+//conditions for the users
+
  if ( $count==1) {
   $_SESSION['userSession3'] = $row['user_id'];
 
@@ -44,7 +46,10 @@ echo "<script>alert('Invalied User Id ')</script>";
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Admin :<?php echo  $userRow['user_id']; ?></title>
 
+
+//conditions for the users
 <body>
+
 
 <title>Admin :<?php echo  $userRow['user_id']; ?></title>
 <div  class="modal">
