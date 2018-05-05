@@ -54,7 +54,7 @@ if (isset($_POST['btn-view'])) {
 }
  else {
 
-echo "<script>alert('Invalid Customer ID or NIC Number!')</script>";
+echo "<script>alert('Sorry,Invalid Customer ID or NIC Number!')</script>";
  }
 
  $DBcon->close();
